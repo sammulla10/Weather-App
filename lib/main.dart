@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             if (snapshot.hasData) {
               return BlocProvider(
                 create: (context) => WeatherBloc()..add(FetchWeather(snapshot.data as Position)),
-                child: HomeScreen(),
+                child:const HomeScreen(),
               );
             } else {
               return const Scaffold(

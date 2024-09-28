@@ -194,7 +194,10 @@ class HomeScreen extends StatelessWidget {
                             children: [
                               Row(
                                 children: [
-                                  Image.asset('assets/images/11.png'),
+                                  Container(
+                                      height: 50,
+                                      child:
+                                          Image.asset('assets/images/11.png')),
                                   const SizedBox(
                                     width: 5,
                                   ),
@@ -228,7 +231,10 @@ class HomeScreen extends StatelessWidget {
                               ),
                               Row(
                                 children: [
-                                  Image.asset('assets/images/12.png'),
+                                  Container(
+                                      height: 50,
+                                      child:
+                                          Image.asset('assets/images/12.png')),
                                   const SizedBox(
                                     width: 5,
                                   ),
@@ -273,7 +279,10 @@ class HomeScreen extends StatelessWidget {
                             children: [
                               Row(
                                 children: [
-                                  Image.asset('assets/images/13.png'),
+                                  SizedBox(
+                                      height: 50,
+                                      child:
+                                          Image.asset('assets/images/13.png')),
                                   const SizedBox(
                                     width: 5,
                                   ),
@@ -304,7 +313,10 @@ class HomeScreen extends StatelessWidget {
                               ),
                               Row(
                                 children: [
-                                  Image.asset('assets/images/14.png'),
+                                  SizedBox(
+                                      height: 50,
+                                      child:
+                                          Image.asset('assets/images/14.png')),
                                   const SizedBox(
                                     width: 5,
                                   ),
